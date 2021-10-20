@@ -1,0 +1,11 @@
+body {
+    background-color: orange;
+}
+
+.creepster-title {
+    font-family: 'Creepster', cursive;
+    font-size: 150px;
+    color: black;
+    padding: 24px;
+    position: absolute;
+}
