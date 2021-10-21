@@ -9,3 +9,14 @@ body {
     padding: 24px;
     position: absolute;
 }
+
+.scroll-bar {
+    margin: -8px;
+    padding: 8px 0;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: darkred;
+    background-color: black;
+}
