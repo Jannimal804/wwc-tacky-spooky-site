@@ -1,15 +1,6 @@
 body {
     background-color: orange;
 }
-
-.creepster-title {
-    font-family: 'Creepster', cursive;
-    font-size: 150px;
-    color: black;
-    padding: 24px;
-    position: absolute;
-}
-
 .scroll-bar {
     margin: -8px;
     padding: 8px 0;
@@ -20,3 +11,22 @@ body {
     color: darkred;
     background-color: black;
 }
+
+.creepster-title {
+    font-family: 'Creepster', cursive;
+    font-size: 150px;
+    color: black;
+    padding: 24px;
+    position: absolute;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1fc700, 0 0 40px #1fc700, 0 0 50px #1fc700, 0 0 60px #1fc700, 0 0 70px #1fc700;
+    }
+    
+    to {
+      text-shadow: 0 0 50px #fff, 0 0 30px #39FF14, 0 0 40px #39FF14, 0 0 50px #39FF14, 0 0 60px #39FF14, 0 0 70px #39FF14, 0 0 80px #39FF14;
+    }
+  }
